@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <title>Movie App</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">LOGO</div>
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Featured</a></li>
+            <li><a href="">Just Arried</a></li>
+            <li><a href="">Upcomming</a></li>
+          </ul>
+        </nav>
+        <div class="profile">
+          <div class="mode-toggle">
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-sun"></i>
+            <div class="ball"></div>
+          </div>
+          <img
+            class="profile-img"
+            src="https://images.pexels.com/photos/2380794/pexels-photo-2380794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <p class="profile-text">
+            Abhijit
+            <span><i class="fa-solid fa-caret-down"></i></span>
+          </p>
+        </div>
+      </header>
+      <main>
+        <aside>
+          <ul class="sidebar">
+            <li class="active">
+              <a href=""><i class="fa-solid fa-house"></i></a>
+            </li>
+
+            <li>
+              <a href=""><i class="fa-solid fa-compass"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-globe"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-film"></i></a>
+            </li>
+            <li>
+              <a href=""> <i class="fa-solid fa-fire"></i></a>
+            </li>
+
+            <li class="logout">
+              <a href=""><i class="fa-solid fa-right-from-bracket"></i> </a>
+            </li>
+          </ul>
+        </aside>
+        <div class="section-container">
+          <section class="banner">
+            <div class="slider-wrapper">
+              <div class="slider banner-slider">
+                <!-- <div class="slider-item">
+                  <img
+                    src="https://images.pexels.com/photos/2306785/pexels-photo-2306785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
+                  <p class="movies-dsc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptas, culpa.
+                  </p>
+                  <button class="play-btn">Play Now</button>
+                </div> -->
+              </div>
+            </div>
+          </section>
+          <section class="recent-container section">
+            <h3 class="title">Recently Watched</h3>
+            <div class="slider-wrapper">
+              <div class="slider recent-slider slider-gap"></div>
+              <button class="recent-btn arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </section>
+          <section class="featured-container section">
+            <h3 class="title">Featured Watched</h3>
+            <div class="slider-wrapper">
+              <div class="slider featured-slider slider-gap"></div>
+              <button class="featured-btn arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </section>
+          <section class="static-banner">
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/d8b69022129649.5630d1981adbd.jpg"
+              alt=""
+            />
+            <p class="movies-dsc">thsi is movie descriptions</p>
+            <button class="play-btn">Play Now</button>
+          </section>
+          <section>Upcomming</section>
+        </div>
+      </main>
+    </div>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
